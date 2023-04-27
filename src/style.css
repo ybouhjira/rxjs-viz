@@ -1,0 +1,9 @@
+html, body, svg {
+  height: 100%;
+  margin: 0;
+}
+
+svg {
+  border: 4px solid darkorange;
+  box-sizing: border-box;
+}
