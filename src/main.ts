@@ -7,8 +7,7 @@ d3.select('body')
     .attr('width', "100%")
     .attr('height', "100%")
 
-
-const $clicks = fromEvent(document, 'click').pipe(map(() => ({x: 100, y: 100})))
+const $clicks = fromEvent(window, 'keydown').pipe(map(() => ({x: 100, y: 100})))
 
 const operators = {
     throttle: throttle(() => interval(1000)),
